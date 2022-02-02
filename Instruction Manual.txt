@@ -1,0 +1,20 @@
+Step 1: Run the RFR_model.py file if you don't want to use previous validation random dataset for final 
+	prediction of adjusted closing price. But, make sure all associated other files (except python) 
+	are closed especially the validation datasets for three stocks and their pickle files to avoid the
+	permission error to overwrite the files as the name is fixed.
+
+	Or,if you are fine using previous validation random dataset for final prediction of adjusted 
+	closing price then, you can skip this step and go directly to step 2.
+
+	If you ran it, then it will create/overwrite three randomized valid datasets for each stock using 10% 
+	of the overall data to use it for validation later on and also it create three models with regular and 
+	scaled values and save as pickle files to use for loading it up in GUI for final prediction of adjusted 
+	closing price based on the selected values of the stock it gets as input features after passing it to 
+	the model.
+
+Step 2: Run the GUI.py file which brings an interactive GUI to visulaize the validastion datasets. And then you 
+	can get an data entry from the validation dataset as you desire and predict the adjusted closing price 
+	based on the selected values of the stock with the help of the loaded model after input features are passed. 
+	If you want to test it again the, you can click the "Reset" button and play with the GUI and then get the 
+	output. You can do as long as you like. And once you are done, you can click the "Quit" button to close the 
+	GUI.
