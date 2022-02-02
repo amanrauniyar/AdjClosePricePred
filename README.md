@@ -1,2 +1,2 @@
 # AdjClosePricePred
-This is a follow-up project after Analysis of 4 Different Regression Algorithms. RFR worked best so, I am using it to predict Adjusted Closing Price with GUI.
+This is a follow-up project after Analysis of 4 Different Regression Algorithms. Random Forest Regressor (RFR) worked best so, I am using it to predict Adjusted Closing Price and displaying it on GUI to visulaize the result and make it interactive. Please read instruction manual if you have any questions about how to use, regarding various files and if you have questions regarding lines of code then feel free to read the comments in the code as I have tried my best to nmake it crystal clear. But, if you still have any questions then feel free to reach out to me. 
